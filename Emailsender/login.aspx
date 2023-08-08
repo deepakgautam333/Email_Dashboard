@@ -32,7 +32,7 @@
                         <asp:TextBox ID="txtUsername" runat="server" class="form-control"  aria-describedby="emailHelp"></asp:TextBox>
                     </div>
                     <div class="mb-4">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <label class="form-label">Password</label>
                         <asp:TextBox ID="txtPassword" runat="server" TextMode="Password" class="form-control"></asp:TextBox>
                     </div>
                     <div class="d-flex align-items-center justify-content-between mb-4">
