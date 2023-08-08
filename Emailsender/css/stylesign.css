@@ -1,0 +1,40 @@
+﻿.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
+.margin1{
+    margin-top:4cm;
+}
+.nav-item nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    padding: 20px;
+}
+
+    nav a {
+        text-decoration: none;
+        font-size: 24px;
+        color: #000000;
+        margin-left: 15px;
+    }
+
+        nav a:hover {
+            color: crimson;
+            transition: 0.5s;
+        }
